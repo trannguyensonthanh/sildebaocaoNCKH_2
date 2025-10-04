@@ -1,0 +1,68 @@
+/* Import font từ Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;700;900&display=swap');
+
+/* Áp dụng Tailwind base, components, và utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* THEME TÙY CHỈNH CHO REVEAL.JS */
+:root {
+  --r-background-color: #0a192f; /* tech-bg */
+  --r-main-font: "Inter", sans-serif;
+  --r-heading-font: "Inter", sans-serif;
+  --r-main-color: #ccd6f6; /* tech-text */
+  --r-heading-color: #ffffff;
+  --r-link-color: #64ffda; /* tech-highlight */
+  --r-link-color-hover: #a7fff1;
+  --r-selection-background-color: #64ffda;
+  --r-selection-color: #0a192f;
+}
+
+.reveal {
+  font-family: var(--r-main-font);
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: var(--r-heading-font);
+  font-weight: 900;
+  color: var(--r-heading-color);
+  text-shadow: 0 0 10px rgba(100, 255, 218, 0.3); /* Hiệu ứng neon nhẹ */
+}
+
+
+
+.reveal strong {
+  color: var(--r-link-color);
+  font-weight: 700;
+}
+
+.reveal .highlight {
+    color: var(--r-link-color);
+    font-weight: bold;
+}
+
+/* Tùy chỉnh thanh progress */
+.reveal .progress {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--r-link-color);
+  height: 5px;
+}
+
+/* Custom bullet points */
+.reveal ul {
+    list-style: none;
+}
+/* .reveal ul li::before {
+    content: ">>";
+    color: var(--r-link-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1.5em;
+} */
