@@ -79,7 +79,7 @@
       <!-- 3. Forward/Backward Pass -->
       <div class="fragment my-8" data-fragment-index="4">
       <p class="text-xl md:text-2xl text-center">
-      <span class="text-tech-highlight font-mono text-yellow-400 drop-shadow">&darr; Forward & Backward Pass (Tính toán song song) &darr;</span>
+      <span class="text-tech-highlight font-mono drop-shadow">&darr; Forward & Backward Pass (Tính toán song song) &darr;</span>
       </p>
       <p class="text-center italic mt-3 text-white font-semibold text-base md:text-lg">
       <strong>2. Parallel Processing:</strong> Mỗi GPU tính toán gradient (kết quả học được) trên phần dữ liệu của riêng mình.

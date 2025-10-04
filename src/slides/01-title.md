@@ -26,9 +26,10 @@
         <h3 class="!text-3xl md:!text-4xl !text-tech-highlight mb-4 border-b border-tech-highlight/50 pb-2 font-bold drop-shadow">
           NHÓM THỰC HIỆN
         </h3>
-        <p class="text-white "><strong class="text-white drop-shadow">Nguyễn Duy Thái</strong> (N22DCCN077) - <span class="text-white">Team Leader & System Architect</span></p>
-        <p class="text-white mt-3 "><strong class="text-white drop-shadow">Trần Nguyễn Sơn Thành</strong> (N22DCCN078) - <span class="text-white">Lead AI Model Engineer</span></p>
-        <p class="text-white mt-3 "><strong class="text-white drop-shadow">Cao Duy Thái</strong> (N22DCCN076) - <span class="text-white">Data & Integration Specialist</span></p>
+        <p class="text-white "><strong class="text-white drop-shadow">Nguyễn Duy Thái</strong> (N22DCCN077) - <span class="text-white">Team Leader & System Architect & Lead AI Model Engineer</span></p>
+        <p class="text-white mt-3 "><strong class="text-white drop-shadow">Trần Nguyễn Sơn Thành</strong> (N22DCCN078) - <span class="text-white">Data & Integration Specialist</span></p>
+        <p class="text-white mt-3 "><strong class="text-white drop-shadow">Cao Duy Thái</strong> (N22DCCN076) - <span class="text-white">
+        Support AI Model Engineer</span></p>
       </div>
       <!-- Hướng dẫn + Đơn vị -->
       <div>
