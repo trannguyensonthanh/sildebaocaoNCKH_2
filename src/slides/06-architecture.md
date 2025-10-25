@@ -9,10 +9,10 @@
   class="h-full"
 >
   <div class="w-full h-full flex flex-col justify-center items-center">
-    <h2 class="!text-5xl mb-12 text-white drop-shadow-lg">Kiến trúc Hệ thống <strong class="!text-tech-highlight">End-to-End</strong></h2>
-    <div class="w-full max-w-7xl flex flex-col items-center space-y-4 font-mono">
+    <h2 class="!text-7xl mb-12 text-white drop-shadow-lg">Kiến trúc Hệ thống <strong class="!text-tech-highlight">End-to-End</strong></h2>
+    <div class="w-full max-w-9xl flex flex-col items-center space-y-4 font-mono">
       <!-- 1. Data Ingestion -->
-      <div class="fragment bg-gradient-to-r from-tech-highlight to-gray-700 text-white font-bold p-4 rounded-lg shadow-2xl w-1/3 text-center border-2 border-tech-highlight">
+      <div class="fragment text-xl bg-gradient-to-r from-tech-highlight to-gray-700 text-white font-bold p-4 rounded-lg shadow-2xl w-1/3 text-center border-2 border-tech-highlight">
         Data Ingestion (Video/Image Stream)
       </div>
       <!-- Mũi tên xuống -->
@@ -24,8 +24,8 @@
         <div class="flex flex-col items-center">
           <!-- Detection & Tracking -->
           <div class="bg-blue-900 text-white font-bold p-6 rounded-lg shadow-2xl w-1/2 text-center border-2 border-blue-400">
-            <h4 class="font-bold text-lg">Vehicle Detection & Tracking</h4>
-            <span class="text-sm text-blue-300">(YOLOv12 + BoT-SORT)</span>
+            <h4 class="font-bold text-xl">Vehicle Detection & Tracking</h4>
+            <span class="text-xl text-blue-300">(YOLOv12 + BoT-SORT)</span>
           </div>
           <!-- Mũi tên phân nhánh -->
           <div class="w-full flex justify-center items-center my-4 relative h-16">
@@ -35,20 +35,20 @@
             <div class="fragment absolute top-full right-1/4 w-px h-4 bg-tech-highlight -translate-y-4" data-fragment-index="4"></div>
             <div class="fragment absolute top-full left-[24%] text-2xl text-tech-highlight drop-shadow-lg" data-fragment-index="5">▼</div>
             <div class="fragment absolute top-full right-[24%] text-2xl text-tech-highlight drop-shadow-lg" data-fragment-index="5">▼</div>
-            <p class="fragment text-white font-bold text-xs absolute top-full left-[28%] mt-4" data-fragment-index="5">Cropped Vehicle Images<br>& Tracking IDs</p>
-            <p class="fragment text-white font-bold text-xs absolute top-full right-[28%] mt-4" data-fragment-index="5">Cropped Vehicle Images<br>& Tracking IDs</p>
+            <p class="fragment text-white font-bold text-30px absolute top-full left-[28%] mt-4" data-fragment-index="5">Cropped Vehicle Images<br>& Tracking IDs</p>
+            <p class="fragment text-white font-bold text-30px absolute top-full right-[28%] mt-4" data-fragment-index="5">Cropped Vehicle Images<br>& Tracking IDs</p>
           </div>
           <!-- Hai module song song -->
           <div class="w-full flex justify-around mt-12">
             <!-- LPR -->
             <div class="fragment bg-gradient-to-r from-green-700 to-green-900 text-white font-bold p-4 rounded-lg shadow-2xl w-2/5 text-center border-2 border-green-400" data-fragment-index="6">
-              <h4 class="font-bold">License Plate Recognition</h4>
-              <span class="text-sm text-green-300">(YOLOv12-LP -> CCT)</span>
+              <h4 class="font-bold text-xl">License Plate Recognition</h4>
+              <span class="text-lg text-green-300">(YOLOv12-LP -> CCT)</span>
             </div>
             <!-- Re-ID -->
             <div class="fragment bg-gradient-to-r from-purple-700 to-purple-900 text-white font-bold p-4 rounded-lg shadow-2xl w-2/5 text-center border-2 border-purple-400" data-fragment-index="6">
-              <h4 class="font-bold">Vehicle Re-Identification</h4>
-              <span class="text-sm text-purple-300">(Multi-Branch Model)</span>
+              <h4 class="font-bold text-xl">Vehicle Re-Identification</h4>
+              <span class="text-lg text-purple-300">(Multi-Branch Model)</span>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
       <div class="fragment text-3xl text-tech-highlight -mt-8 drop-shadow-lg" data-fragment-index="8">▼</div>
       <p class="fragment text-white font-bold text-xl -mt-2" data-fragment-index="8">Enriched Vehicle Data</p>
       <!-- 3. Output Data Stream -->
-      <div class="fragment bg-gradient-to-r from-tech-highlight to-gray-700 text-white font-bold p-4 rounded-lg shadow-2xl w-1/2 text-center border-2 border-tech-highlight" data-fragment-index="9">
+      <div class="fragment bg-gradient-to-r text-xl from-tech-highlight to-gray-700 text-white font-bold p-4 rounded-lg shadow-2xl w-1/2 text-center border-2 border-tech-highlight" data-fragment-index="9">
         Output Data Stream (Vehicle Track, Global ID, License Plate)
       </div>
     </div>

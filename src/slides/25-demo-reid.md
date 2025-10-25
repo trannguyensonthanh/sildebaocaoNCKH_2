@@ -9,7 +9,7 @@
   class="h-full"
 >
   <div class="w-full h-full flex flex-col justify-center items-center">
-    <h2 class="!text-5xl mb-12 text-center text-white">
+    <h2 class="!text-6xl mb-12 text-center text-white">
       Demo 2: Tái định danh Đa camera & <strong class="!text-tech-highlight">Tái hiện Hành trình</strong>
     </h2>
     <div class="w-full max-w-7xl mx-auto">
@@ -39,7 +39,7 @@
       </div>
       <!-- PHẦN 2: BẢN ĐỒ TÁI HIỆN HÀNH TRÌNH -->
       <div class="fragment mt-10 relative" data-fragment-index="6">
-        <p class="text-2xl text-center mb-6 text-white">
+        <p class="text-3xl text-center mb-6 text-white">
           Mặc dù ngoại hình thay đổi, hệ thống đã <strong class="!text-tech-highlight">gán thành công cùng một Global ID</strong> và tái hiện lại được quỹ đạo di chuyển:
         </p>
         <img src="/images/demo-reid-map-trajectory.png" alt="Bản đồ quỹ đạo xe" class="rounded-lg shadow-2xl shadow-tech-card w-full"/>

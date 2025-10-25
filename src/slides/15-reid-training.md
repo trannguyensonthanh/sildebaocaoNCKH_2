@@ -10,11 +10,11 @@
 >
   <div class="w-full h-full flex flex-col justify-center items-center text-white">
     <h2 class="!text-5xl md:!text-6xl mb-16 text-center font-extrabold drop-shadow-xl">Huấn luyện Re-ID: <strong class="!text-tech-highlight">Dạy Mô hình cách Phân biệt</strong></h2>
-    <div class="grid grid-cols-5 gap-12 w-full max-w-7xl mx-auto items-center">
+    <div class="grid grid-cols-5 gap-12 w-full max-w-9xl mx-auto items-center">
       <!-- CỘT TRÁI: NGUYÊN LÝ TRIPLET LOSS -->
-      <div class="col-span-2 flex flex-col text-2xl md:text-3xl">
+      <div class="col-span-2 flex flex-col text-3xl">
         <div class="fragment" data-fragment-index="1">
-          <h3 class="!text-3xl md:!text-4xl !text-tech-highlight mb-4 font-bold drop-shadow-xl">Mục tiêu: Học Không gian Đặc trưng</h3>
+          <h3 class="!text-5xl !text-tech-highlight mb-4 font-bold drop-shadow-xl">Mục tiêu: Học Không gian Đặc trưng</h3>
           <p class="font-semibold drop-shadow-lg text-white">Không phải "phân loại" xe, mà là "học khoảng cách" giữa chúng.</p>
         </div>
         <div class="fragment mt-10" data-fragment-index="2">
@@ -40,21 +40,19 @@
           </div>
         </div>
         <div class="fragment mt-10 bg-tech-card/90 p-6 rounded-lg border-l-4 border-tech-highlight shadow-2xl" data-fragment-index="3">
-          <p class="text-xl md:text-2xl font-bold drop-shadow-xl text-white">
+          <p class="text-3xl font-bold drop-shadow-xl text-white">
             <strong>Mục tiêu của hàm loss:</strong> "Kéo" <span class="text-green-400">Positive</span> lại gần <span class="text-blue-400">Anchor</span> và "Đẩy" <span class="text-red-400">Negative</span> ra xa khỏi <span class="text-blue-400">Anchor</span>.
           </p>
         </div>
       </div>
       <!-- CỘT PHẢI: KẾT QUẢ TRỰC QUAN -->
       <div class="col-span-3 fragment" data-fragment-index="4">
-        <h3 class="!text-3xl md:!text-4xl !text-tech-highlight text-center mb-4 font-bold drop-shadow-xl">Kết quả: Không gian Đặc trưng được Hình thành</h3>
-        <div class="bg-white/95 p-2 rounded-lg shadow-2xl">
+        <h3 class="!text-3xl md:!text-4xl !text-tech-highlight text-center mb-4 font-bold drop-shadow-xl">Kết quả: Không gian Đặc trưng được Hình thành</h3>     
           <img
             src="images/embedding-space-3d.png"
             alt="Biểu đồ phân tán 3D các đặc trưng"
-            class="rounded-md"
+            class="rounded-md w-3/4 h-auto ml-32"
           />
-        </div>
         <p class="text-center text-xl md:text-2xl italic mt-4 font-semibold drop-shadow-xl text-white">Các ảnh của cùng một xe sẽ <strong class="!text-white">tụ lại thành một cụm</strong> trong không gian 3D.</p>
       </div>
     </div>

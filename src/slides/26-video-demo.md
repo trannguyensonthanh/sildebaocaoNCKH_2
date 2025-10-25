@@ -15,7 +15,7 @@
   class="h-full"
 >
   <div class="w-full h-full flex flex-col justify-center items-center">
-    <h2 class="text-5xl font-bold mb-8 text-center text-white drop-shadow-lg">
+    <h2 class="text-7xl font-bold mb-8 text-center text-white drop-shadow-lg">
       Video Demo: <strong class="text-tech-highlight">Hệ thống Hoạt động Toàn diện</strong>
     </h2>
     <!-- Video Container -->
@@ -28,7 +28,7 @@
         allowfullscreen>
       </iframe>
     </div>
-    <p class="text-lg mt-4 text-white text-center font-medium drop-shadow">
+    <p class="text-2xl mt-4 text-white text-center font-medium drop-shadow">
       Demo trình diễn khả năng tracking và tái định danh trên nhiều luồng camera.
     </p>
   </div>

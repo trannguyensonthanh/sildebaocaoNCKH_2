@@ -9,15 +9,15 @@
   class="h-full"
 >
   <div class="w-full h-full flex flex-col justify-center">
-    <h2 class="text-center !text-5xl mb-16">Mục tiêu, Phạm vi & Đóng góp</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 w-full max-w-7xl mx-auto">
+    <h2 class="text-center !text-7xl mb-16">Mục tiêu, Phạm vi & Đóng góp</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 w-full max-w-9xl mx-auto">
       <!-- CỘT 1: MỤC TIÊU CHÍNH (OBJECTIVES) -->
       <div class="fragment" data-fragment-index="1">
         <div class="bg-tech-card/50 p-8 rounded-lg h-full border border-tech-subtle/20">
           <!-- Icon -->
           <img src="images/agenda-icons/icon-problem.png" class="h-20 w-20 mx-auto mb-6" alt="Objectives Icon"/>
-          <h3 class="!text-3xl text-center !text-tech-highlight">Mục tiêu Chính</h3>
-          <ul class="text-xl space-y-4 mt-6">
+          <h3 class="!text-5xl text-center !text-tech-highlight">Mục tiêu Chính</h3>
+          <ul class="text-3xl space-y-4 mt-6">
             <li class="flex items-start text-white font-semibold">
               <span class="text-tech-highlight font-bold mr-3 mt-1">&#10003;</span>
               <span>Xây dựng một pipeline MC-MOT <strong class="!text-tech-highlight">hoàn chỉnh, end-to-end</strong> với độ chính xác cao.</span>
@@ -33,8 +33,8 @@
         <div class="bg-tech-card/50 p-8 rounded-lg h-full border border-tech-subtle/20">
           <!-- Icon -->
           <img src="images/icons/icon-scope.png" class="h-20 w-20 mx-auto mb-6" alt="Scope Icon"/>
-          <h3 class="!text-3xl text-center !text-tech-highlight">Phạm vi Nghiên cứu</h3>
-          <ul class="text-xl space-y-4 mt-6">
+          <h3 class="!text-5xl text-center !text-tech-highlight">Phạm vi Nghiên cứu</h3>
+          <ul class="text-3xl space-y-4 mt-6">
             <li class="flex items-start text-white font-semibold">
               <span class="text-tech-highlight font-bold mr-3 mt-1">&rarr;</span>
               <span><strong class="!text-tech-highlight">Công nghệ:</strong> YOLOv12, BoT-SORT, Vision Transformer, Faiss, OpenVINO™.</span>
@@ -50,8 +50,8 @@
         <div class="bg-tech-card/50 p-8 rounded-lg h-full border border-tech-subtle/20">
           <!-- Icon -->
           <img src="images/icons/icon-contribution.png" class="h-20 w-20 mx-auto mb-6" alt="Contributions Icon"/>
-          <h3 class="!text-3xl text-center !text-tech-highlight">Đóng góp Chính</h3>
-          <ul class="text-xl space-y-4 mt-6">
+          <h3 class="!text-5xl text-center !text-tech-highlight">Đóng góp Chính</h3>
+          <ul class="text-3xl space-y-4 mt-6">
             <li class="flex items-start text-white font-bold">
               <span class="text-tech-highlight font-bold mr-3 mt-1">&#10022;</span>
               <span>Cung cấp một <strong class="!text-tech-highlight">case study định lượng chi tiết</strong> về hiệu quả của OpenVINO trên pipeline AI phức tạp.</span>

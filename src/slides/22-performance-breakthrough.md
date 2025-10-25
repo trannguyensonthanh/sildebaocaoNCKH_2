@@ -9,11 +9,11 @@
   class="h-full"
 >
   <div class="w-full h-full flex flex-col justify-center items-center text-white drop-shadow-lg">
-    <h2 class="!text-5xl mb-12 text-center font-extrabold text-tech-highlight">
+    <h2 class="!text-7xl mb-12 text-center font-extrabold text-white">
       Kết quả Định lượng: <strong class="!text-tech-highlight">Một Bước Đột phá về Hiệu năng</strong>
     </h2>
     <!-- BẢNG SO SÁNH KẾT QUẢ -->
-    <div class="w-full max-w-5xl mx-auto fragment bg-gradient-to-br from-tech-bg-dark via-tech-bg to-tech-bg-dark/80 rounded-xl shadow-2xl border border-tech-highlight/40" data-fragment-index="1">
+    <div class="w-full max-w-6xl mx-auto fragment bg-gradient-to-br from-tech-bg-dark via-tech-bg to-tech-bg-dark/80 rounded-xl shadow-2xl border border-tech-highlight/40" data-fragment-index="1">
       <table class="w-full text-2xl border-collapse">
         <thead>
           <tr class="border-b-4 border-tech-highlight text-tech-highlight">
@@ -43,14 +43,14 @@
     <div class="w-full max-w-7xl mx-auto grid grid-cols-2 gap-12 mt-16">
       <!-- BIỂU ĐỒ THROUGHPUT (FPS) -->
       <div class="fragment" data-fragment-index="2">
-        <h3 class="!text-2xl text-center text-tech-highlight mb-4 font-semibold drop-shadow">So sánh Throughput (FPS) - Càng cao càng tốt</h3>
+        <h3 class="!text-3xl text-center text-tech-highlight mb-4 font-semibold drop-shadow">So sánh Throughput (FPS) - Càng cao càng tốt</h3>
         <div class="bg-gradient-to-br from-tech-bg-dark via-tech-bg to-tech-bg-dark/80 p-4 rounded-lg shadow-2xl border border-tech-highlight/30">
           <img src="images/chart-fps-comparison.png" alt="Biểu đồ so sánh Throughput (FPS)" class="rounded-md shadow-lg"/>
         </div>
       </div>
       <!-- BIỂU ĐỒ LATENCY (ms) -->
       <div class="fragment" data-fragment-index="3">
-        <h3 class="!text-2xl text-center text-tech-highlight mb-4 font-semibold drop-shadow">So sánh Latency (ms) - Càng thấp càng tốt</h3>
+        <h3 class="!text-3xl text-center text-tech-highlight mb-4 font-semibold drop-shadow">So sánh Latency (ms) - Càng thấp càng tốt</h3>
         <div class="bg-gradient-to-br from-tech-bg-dark via-tech-bg to-tech-bg-dark/80 p-4 rounded-lg shadow-2xl border border-tech-highlight/30">
           <img src="images/chart-latency-comparison.png" alt="Biểu đồ so sánh Latency (ms)" class="rounded-md shadow-lg"/>
         </div>

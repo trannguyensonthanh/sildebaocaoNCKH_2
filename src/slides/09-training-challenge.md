@@ -22,7 +22,7 @@
         <div class="fragment" data-fragment-index="1">
           <p class="text-2xl md:text-3xl font-bold">Tổng số lượng ảnh huấn luyện</p>
           <p class="text-7xl md:text-8xl text-tech-highlight font-black bg-black/80 px-6 py-4 rounded-lg shadow-lg">
-            <span class="count-up" data-from="0" data-to="2000000" data-decimals="0" data-duration="2">2,000,000</span>+
+            <span class="count-up" data-from="0" data-to="1000000" data-decimals="0" data-duration="2">1,000,000</span>+
           </p>
           <p class="text-2xl md:text-3xl font-medium">hình ảnh</p>
         </div>

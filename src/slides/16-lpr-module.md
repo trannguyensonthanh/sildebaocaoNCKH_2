@@ -9,15 +9,15 @@
   class="h-full"
 >
   <div class="w-full h-full flex flex-col justify-center items-center">
-    <h2 class="text-5xl md:text-6xl font-extrabold mb-6 text-center text-white drop-shadow-lg">Module 3: Nhận dạng Biển số (LPR)</h2>
-    <p class="text-2xl md:text-3xl mb-14 text-center text-gray-100 font-medium">Trích xuất "Chứng minh thư" của Phương tiện</p>
-    <div class="w-full max-w-7xl mx-auto flex items-center justify-center space-x-10">
+    <h2 class="text-7xl font-extrabold mb-6 text-center text-tech-highlight drop-shadow-lg">Module 3: Nhận dạng Biển số (LPR)</h2>
+    <p class="text-4xl mb-14 text-center text-gray-100 font-medium">Trích xuất "Chứng minh thư" của Phương tiện</p>
+    <div class="w-full max-w-9xl mx-auto flex items-center justify-center space-x-10">
       <!-- BƯỚC 1: PHÁT HIỆN BIỂN SỐ -->
-      <div class="fragment w-3/5 h-full" data-fragment-index="1">
+      <div class="fragment w-[450px] h-full" data-fragment-index="1">
         <div class="bg-gray-900/90 p-8 rounded-xl border border-gray-700 h-full shadow-xl">
           <h3 class="text-4xl md:text-5xl font-bold text-tech-highlight text-center mb-4">Bước 1: Phát hiện Vị trí</h3>
           <p class="text-center mt-2 mb-6 text-xl md:text-2xl text-gray-50 font-semibold">Sử dụng mô hình <strong class="text-white">YOLOv12-nano</strong> đã được tinh chỉnh để xác định chính xác vùng chứa biển số.</p>
-          <img src="images/lpr-step1-detection.png" alt="Phát hiện biển số" class="rounded-md shadow-lg w-2/3 h-3/5 object-contain mx-auto"/>
+          <img src="images/lpr-step1-detection.png" alt="Phát hiện biển số" class="rounded-md shadow-lg w-full h-3/5"/>
         </div>
       </div>
       <!-- Mũi tên chỉ sang phải -->
